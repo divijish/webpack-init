@@ -1,0 +1,24 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "Learning all about webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "divij",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.7.4",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.0",
+    "jquery": "^3.4.1"
+  }
+}
