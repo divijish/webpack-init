@@ -10,7 +10,9 @@ module.exports = {
     }, devServer: {
         contentBase: path.join(__dirname, 'dist'),
         port: 9000}
-, 
+, optimization:{
+        minimizer:[new UglifyJsPlugin()]
+},
     module: {
         rules: [
             {
