@@ -13,12 +13,17 @@
   "author": "divij",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
     "http-server": "^0.12.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
